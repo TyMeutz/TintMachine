@@ -7,7 +7,7 @@ package tintmachine;
 
 /**
  *
- * @author tmeut
+ * @author tmeutz
  */
 public enum Colors {
     RED,

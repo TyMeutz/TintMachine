@@ -14,7 +14,11 @@ public enum Shaker {
     Shaker(String s){
         sound = s;
     }
-    
+    /**
+     * Gets the sound effect from the proper enum.
+     * 
+     * @return 
+     */
     public String getSound(){
         return sound;
     }

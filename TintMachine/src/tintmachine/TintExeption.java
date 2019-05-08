@@ -1,16 +1,17 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package tintmachine;
 
 /**
  *
- * @author tmeut
+ * @author tmeutz
  */
 public class TintExeption extends Exception{
         TintError error;    
+    /**
+     * Throws an error when the machine has an insufficient amount of colorant
+     * 
+     * @param msg
+     * @param err 
+     */
     public TintExeption(String msg, TintError err){
         super(msg);
         error = err;
